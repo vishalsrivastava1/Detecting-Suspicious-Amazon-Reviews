@@ -102,6 +102,7 @@ pipeline was used:
 - Applied clustering and built a decision tree to derive insights from the reviews.
 - Enhanced sentiment analysis by adding a subjectivity feature.
 - Ran clustering and decision tree analysis on the updated dataset including subjectivity.
+- Conducted cross-validation to validate the performance of the models
 ---
 
 ## Team Members
