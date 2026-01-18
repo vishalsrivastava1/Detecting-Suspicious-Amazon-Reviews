@@ -1,6 +1,6 @@
-# 🛒 Detecting Suspicious and Fake Amazon Reviews
+#  Detecting Suspicious and Fake Amazon Reviews
 
-## 📌 Project Overview
+##  Project Overview
 As e-commerce platforms such as Amazon continue to scale, detecting fraudulent or
 manipulated reviews has become increasingly difficult through manual moderation.
 This project applies data analytics, natural language processing (NLP), and machine
@@ -12,7 +12,7 @@ high-risk review behavior that may indicate coordinated or automated manipulatio
 
 ---
 
-## 🧠 Business Problem
+##  Business Problem
 Fake reviews distort customer trust and decision-making on online marketplaces.
 They often originate from bots, incentivized reviewers, or coordinated review
 networks and can appear authentic when viewed individually.
@@ -24,7 +24,7 @@ This project investigates whether suspicious reviews can be detected using:
 
 ---
 
-## 📊 Data Source
+## Data Source
 - **Dataset:** Amazon Product Reviews  
 - **Source:** Kaggle  
 - **Size:** ~568,000 reviews  
@@ -32,7 +32,7 @@ This project investigates whether suspicious reviews can be detected using:
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 - Python
 - Pandas, NumPy
 - Scikit-learn
@@ -42,7 +42,7 @@ This project investigates whether suspicious reviews can be detected using:
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 ### 1. Data Cleaning & Preprocessing
 - Removed duplicate reviews
@@ -89,14 +89,14 @@ pipeline was used:
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 - Suspicious reviewers often post an unusually high number of reviews in a single day
 - Fraud-prone reviews exhibit extreme sentiment and high subjectivity
 - Fake reviews tend to be shorter, generic, and emotionally exaggerated
 - Linguistic features significantly improve fraud detection beyond behavior alone
 
 ---
-##  My Contribution
+## My Contribution
 - Implemented the SingleDayReviewFrequency feature to analyze review patterns.
 - Performed sentiment analysis on review data.
 - Applied clustering and built a decision tree to derive insights from the reviews.
@@ -104,7 +104,7 @@ pipeline was used:
 - Ran clustering and decision tree analysis on the updated dataset including subjectivity.
 ---
 
-##  Team Members
+## Team Members
 - Christie Shin  
 - Shivani Vallamdas  
 - Gema Zhu  
@@ -113,14 +113,14 @@ pipeline was used:
 
 ---
 
-## ⚠️Limitations
+## Limitations
 - Dataset represents older review behavior and may not capture modern LLM-generated fraud
 - No ground-truth labels for fake vs real reviews
 - Model is optimized for high-volume and low-effort fraud patterns
 
 ---
 
-##  Conclusion
+## Conclusion
 This project demonstrates that combining behavioral patterns with sentiment and
 linguistic analysis is an effective strategy for identifying suspicious review activity.
 The approach provides scalable and interpretable insights that can support automated
